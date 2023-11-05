@@ -1,0 +1,40 @@
+Straight from my best friend ChatGPT:
+
+Choose Audio Input Method:
+Determine how you'll capture audio from the computer's audio line. You might use libraries like PortAudio or PulseAudio for this purpose.
+
+Audio Analysis:
+You'll need to analyze the audio data to determine when a song is being played. This could involve audio fingerprinting, spectral analysis, or other audio processing techniques. Libraries like "go-audio" can help with audio processing in Go.
+
+Song Recognition:
+You'll need a song recognition system to identify the song being played. You can integrate with services like AcoustID or ACRCloud, which provide APIs for song recognition.
+
+Lyric Retrieval:
+Once you know the song being played, you'll need to fetch the lyrics for that song. You can use lyrics APIs like Genius or LyricWikia to retrieve lyrics.
+
+GUI Development:
+Create a GUI for your Linux application. You can use libraries like "fyne" or "gotk3" to build the graphical user interface.
+
+Lyric Syncing:
+Synchronize the lyrics with the audio. This can be a challenging task and might involve aligning the lyrics with the audio waveform. You could use audio analysis techniques to detect beat and rhythm to help with synchronization.
+
+Widget Implementation:
+Create a widget that displays the synchronized lyrics on the home screen. This could be a desktop widget or a system tray icon that expands into a window when clicked.
+
+Cross-Distribution Support:
+To ensure wide Linux distribution support, you'll need to package your application in a way that works across different distributions. Common packaging systems are DEB (for Debian/Ubuntu-based systems) and RPM (for Red Hat/Fedora-based systems). You can also provide a generic binary for other distributions.
+
+User Configuration:
+Allow users to configure the application, such as audio input sources, preferences, and widget settings.
+
+Testing and Deployment:
+Test your application on various Linux distributions to ensure compatibility. Provide clear installation instructions for users.
+
+Documentation and Support:
+Create user documentation and provide a way for users to seek support or report issues.
+
+Legal Considerations:
+Ensure you have the necessary permissions and licenses for recognizing and displaying lyrics, as this can be a legal grey area.
+
+Continuous Improvement:
+Continue to improve and maintain your application based on user feedback and changes in the Linux ecosystem.
