@@ -11,4 +11,5 @@ func AudioPull() {
         return
     }
     defer pa.Terminate()
+	fmt.Println(pa.VersionText())
 }
